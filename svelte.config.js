@@ -17,7 +17,10 @@ const config = {
 				include: ['/*'],
 				exclude: ['<all>']
 			}
-		})
+		}),
+		alias: {
+			'$components/*': 'src/lib/components'
+		}
 	}
 };
 
